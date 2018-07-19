@@ -8,7 +8,7 @@ public class Produto {
     private String descricao;
     private BigDecimal valor;
     private Lojista lojista;
-// so para comitar
+
     public String getImagem() {
         return imagem;
     }
@@ -25,7 +25,4 @@ public class Produto {
         return lojista;
     }
 
-    public void teste {
-
-    }
 }
