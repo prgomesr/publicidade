@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
-import java.lang.management.LockInfo;
 import java.util.List;
 
 @RestController
 @RequestMapping("lojistas")
+@CrossOrigin("http://localhost:8100")
 public class LojistaResource {
 
     @Autowired

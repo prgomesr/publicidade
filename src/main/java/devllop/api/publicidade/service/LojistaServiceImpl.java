@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class LojistaServiceImpl implements LojistaService{
+public class LojistaServiceImpl implements LojistaService {
 
     @Autowired
     private LojistaRepository repository;
